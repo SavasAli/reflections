@@ -1,9 +1,12 @@
 What happens when you initialize a repository? Why do you need to do it?
 1) You will create, with the command git init, a new repository in git.
-2) That's how you apply the version control program Git (on files) in a directory. 
+2) That's how you apply the version control program Git (on files) in a directory.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+In the staging area you decide which files are comitted together in a repository.
+Well you can decide if the file are logically connected and therefore should be comitted together.
+It gives you more control over which files should be commited together.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
