@@ -13,7 +13,12 @@ change?
   By only adding the files for which you made the logical change.
 
 What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+organized?
+  If you want to make an experimental change to your code, but you want to keep a working version of the code,
+  you would like to a make a seperate branch for the experimental change. Or you want to make different version of the program.
+  For example an easier version or a version in English.
+How would branches help?
+  Branching help you by making different version without changing the master branch. So you would be more confident experimenting.
 
 How do the diagrams help you visualize the branch structure?
 
