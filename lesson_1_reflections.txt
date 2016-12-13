@@ -1,0 +1,25 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+  First of all, it is an easy way to find differences between files, as it only shows where the two files differ from each other.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+  Well, suppose you have changed a file such that it doesn't work anymore and you don't know why.
+  If an old version of the file which works is saved, it can save you a lot of time figuring out why the latest version doesn't work.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+  I'm a person which might forget to create a commit, so I could lose important changes I've made if my computer would crash.
+  When I would obtain the habit of committing on logical changes, this would mean great improvement of my workflow.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+  When writing code it's common to have multiple files, who have interdependencies amongst one anther, while working with office documents this likely the case.
+
+How can you use the commands git log and git diff to view the history of files?
+  When you're in the directory where the files are located you can use the command git log to view the history of the commits.
+  By using the command git diff followed by the id's of two commits you can see the differences betweeen the commits.
+
+How might using version control make you more confident to make changes that could break something?
+  By using the command git checkout commit_id you can always go back to a version that worked.
+  Furthermore, when you identify the commit where the version worked properly you can check with the command git diff old_commit_id new_commit_id
+  the differences between the working and broken version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+  I want use Git for developing dashboards with RShiny and eventually all code which I might write in the future.
